@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	color: #fff;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+#header{
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    margin : 0.5em;
+}
+#header .title{
+    text-align: left;
+}
+#header h1{
+    font-size: 1.5em;
+}
+
+#header .sections{
+    position: absolute;
+    top:1em;
+    right:0;
+    font-size: 1em;
+}
+#header .sections a{
+    margin-right : 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#content p{
+    text-align:center;
+    font-size: 1em;
+    text-align: justify;
+    margin: 0.3em;
+    margin-left:3em;
+    margin-right:3em;
+    padding: 0.5em;
+    line-height: 2;
+
+}
+
+.team_details{
+    text-align: center;
+    margin-top: 1em;
+}
